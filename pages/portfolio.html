@@ -1,656 +1,379 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!--Link CSS-->
-    <link rel="stylesheet" href="../css/custom.css" />
 
-    <!--Logo pestaña-->
-    <link
-      rel="shortcut icon"
-      href="../images/logos/building-regular.svg"
-      type="image/x-icon"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Servicios arquitectonicos: planos, modelos 3D, renders y mucho más | Nicolás Franchini">
+  <meta name="keywords"
+    content="portfolio, portafolio, plano, planos, modelos 3D, modelos, 3D, render, renders, servicios arquitectoncios, arquitectura">
 
-    <title>Portfolio</title>
-  </head>
+  <!--Link CSS-->
+  <link rel="stylesheet" href="../css/custom.css" />
 
-  <body class="pages-background">
-    <!--HEADER-->
-    <header>
-      <div class="container-fluid px-4 pb-2">
-        <div class="row align-items-start align-items-xl-center pt-4">
-          <div
-            class="col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1 text-end"
-          >
-            <a class="navbar-brand" href="../index.html">
-              <img
-                src="../images/logos/logo-proyecto.png"
-                alt=""
-                width="64"
-                height="52"
-              />
-            </a>
-          </div>
-          <div
-            class="d-none col-sm-9 d-lg-none d-xl-inline-block col-xl-3 col-xxl-2"
-          >
-            <p class="text-light h3 fst-italic">
-              <em>"Busca tu propia suerte"</em>
-            </p>
-          </div>
-          <nav
-            class="navbar navbar-expand-lg navbar-dark py-3 col-9 col-sm-10 col-lg-11 col-xl-8 col-xxl-9"
-          >
-            <div class="container justify-content-end">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul
-                  class="navbar-nav ms-auto align-items-end align-items-sm-end align-items-md-end align-items-xl-center align-items-xxl-center mt-4 mt-xxl-0"
-                >
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active text-light h3 ps-5 pe-0 py-1.5 mb-0"
-                      aria-current="page"
-                      href="../index.html"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-light h3 ps-5 pe-0 py-1.5 mb-0"
-                      href="../pages/portfolio.html"
-                      >Portfolio</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-light h3 ps-5 pe-0 py-1.5 mb-0"
-                      href="../pages/servicios.html"
-                      >Servicios</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-light h3 ps-5 pe-0 py-1.5 mb-0"
-                      href="../pages/sobremi.html"
-                      >¿Quién soy?</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-light h3 ps-5 pe-0 py-1.5 mb-0"
-                      href="../pages/reserva.html"
-                      >Reserva online</a
-                    >
-                  </li>
-                  <li class="nav-item ps-5">
-                    <a
-                      class="nav-link text-light h3 mb-0"
-                      href="https://www.linkedin.com/in/nicol%C3%A1s-franchini/"
-                    >
-                      <img
-                        class="logo logo--linkedin"
-                        src="../images/logos/LinkedIn.png"
-                        alt=""
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+  <!--Logo pestaña-->
+  <link rel="shortcut icon" href="../images/logos/building-regular.svg" type="image/x-icon" />
+
+  <title>Portfolio</title>
+</head>
+
+<body class="pages-background">
+  <!--HEADER-->
+  <header>
+    <div class="container-fluid px-4 pb-2">
+      <div class="row align-items-start align-items-xl-center pt-4">
+        <div class="col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1 text-end">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/logos/logo-proyecto.png" alt="" width="64" height="52" />
+          </a>
+        </div>
+        <div class="d-none col-sm-9 d-lg-none d-xl-inline-block col-xl-3 col-xxl-2">
+          <p class="text-light h3 fst-italic">
+            <em>"Busca tu propia suerte"</em>
+          </p>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark py-3 col-9 col-sm-10 col-lg-11 col-xl-8 col-xxl-9">
+          <div class="container justify-content-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav ms-auto align-items-end align-items-sm-end align-items-md-end align-items-xl-center align-items-xxl-center mt-4 mt-xxl-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-light h3 ps-5 pe-0 py-1.5 mb-0" aria-current="page"
+                    href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light h3 ps-5 pe-0 py-1.5 mb-0" href="../pages/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light h3 ps-5 pe-0 py-1.5 mb-0" href="../pages/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light h3 ps-5 pe-0 py-1.5 mb-0" href="../pages/sobremi.html">¿Quién soy?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light h3 ps-5 pe-0 py-1.5 mb-0" href="../pages/reserva.html">Reserva
+                    online</a>
+                </li>
+                <li class="nav-item ps-5">
+                  <a class="nav-link text-light h3 mb-0" href="https://www.linkedin.com/in/nicol%C3%A1s-franchini/">
+                    <img class="logo logo--linkedin" src="../images/logos/LinkedIn.png" alt="" />
+                  </a>
+                </li>
+              </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!--MAIN-->
+  <main>
+    <div class="container py-4 px-1 border-top border-light portfolio">
+      <div class="row mb-5 h-auto align-items-center">
+        <div class="display-2 fw-bold m-0 text-center title">
+          OK, ESTOS SON MIS TRABAJOS!
         </div>
       </div>
-    </header>
-
-    <!--MAIN-->
-    <main>
-      <div class="container py-4 px-1 border-top border-light portfolio">
-        <div class="row mb-4 h-auto align-items-center">
-          <div class="display-2 fw-bold m-0 text-center title">
-            OK, ESTOS SON MIS TRABAJOS!
+      <div class="row gy-4">
+        <!--1° Villa Rosa-->
+        <div class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="py-3 titulo-portfolio">Villa Rosa</h2>
+          <div id="carouselvillarosa" class="carousel slide sombra" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselvillarosa" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselvillarosa" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/portfolio/villa-rosa/villa-rosa.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/villa-rosa/villa-rosa-2.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselvillarosa"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselvillarosa"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-        <div class="row gy-4">
-          <!--1°-->
-          <div
-            class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex justify-content-center"
-          >
-            <div
-              id="carouselExampleIndicators"
-              class="carousel slide sombra"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="../images/portfolio/villa-rosa.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/villa-rosa.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/villa-rosa.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
 
-          <!--2°-->
-          <div
-            class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex justify-content-center"
-          >
-            <div
-              id="carouselExampleIndicators"
-              class="carousel slide sombra"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="../images/portfolio/mobiliario.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/mobiliario.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/mobiliario.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+        <!--2° Triplex-->
+        <div class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="py-3 titulo-portfolio">Triplex</h2>
+          <div id="carouseltriplex" class="carousel slide sombra" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouseltriplex" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouseltriplex" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouseltriplex" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouseltriplex" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouseltriplex" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouseltriplex" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouseltriplex" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouseltriplex" data-bs-slide-to="7"
+                aria-label="Slide 8"></button>
             </div>
-          </div>
-          <!--3°-->
-          <div
-            class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex justify-content-center"
-          >
-            <div
-              id="carouselExampleIndicators"
-              class="carousel slide sombra"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/portfolio/triplex/triplex.jpg" class="d-block w-100" alt="..." />
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="../images/portfolio/triplex.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/triplex.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/triplex.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/triplex/triplex-2.jpg" class="d-block w-100" alt="..." />
               </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="carousel-item">
+                <img src="../images/portfolio/triplex/triplex-3.png" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/triplex/triplex-4.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/triplex/triplex-5.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/triplex/triplex-6.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/triplex/triplex-7.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/triplex/triplex-8.jpg" class="d-block w-100" alt="..." />
+              </div>
             </div>
-          </div>
-          <!--4°-->
-          <div
-            class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex justify-content-center"
-          >
-            <div
-              id="carouselExampleIndicators"
-              class="carousel slide sombra"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="../images/portfolio/boulevard.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/boulevard.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/boulevard.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          <!--5°-->
-          <div
-            class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex justify-content-center"
-          >
-            <div
-              id="carouselExampleIndicators"
-              class="carousel slide sombra"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="../images/portfolio/triplex-2.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/triplex-2.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/triplex-2.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          <!--6°-->
-          <div
-            class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex justify-content-center"
-          >
-            <div
-              id="carouselExampleIndicators"
-              class="carousel slide sombra"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="../images/portfolio/triplex-2.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/triplex-2.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="../images/portfolio/triplex-2.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-      </div>
-    </main>
-
-    <!--FOOTER-->
-    <footer>
-      <div class="container position-relative start-0 mt-4 pt-4 border-top border-light">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <a class="float-end" href="mailto:mmonicolasfranchini@gmail.com">
-              <img
-                class="img-fluid logo logo--mail"
-                src="../images/logos/Gmail.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="col-6">
-            <a
-              class="float-start"
-              href="https://wa.me/5491166763658?text=Me%20interesa%20el%20servicio%20que%20estás%20ofreciendo"
-            >
-              <img
-                class="img-fluid logo logo--wsp"
-                src="../images/logos/WhastApp.png"
-                alt=""
-              />
-            </a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouseltriplex"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouseltriplex"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-        <div class="row">
-          <h3 class="display-3">
-            <div class="display-3--footer">
-              <strong>
-                © Copyright 2022 | By
-                <span>
-                  <a href="https://www.linkedin.com/in/nicol%C3%A1s-franchini/"
-                    >Nicolás Franchini</a
-                  >
-                </span></strong
-              >
+        <!--3° Polideportivo-->
+        <div class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="py-3 titulo-portfolio">Polideportivo</h2>
+          <div id="carouselpolideportivo" class="carousel slide sombra" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselpolideportivo" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselpolideportivo" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselpolideportivo" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselpolideportivo" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselpolideportivo" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselpolideportivo" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselpolideportivo" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
             </div>
-          </h3>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/portfolio/polideportivo/polideportivo.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/polideportivo/polideportivo-2.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/polideportivo/polideportivo-3.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/polideportivo/polideportivo-4.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/polideportivo/polideportivo-5.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/polideportivo/polideportivo-6.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/polideportivo/polideportivo-7.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselpolideportivo"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselpolideportivo"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!--4° Plaza-->
+        <div class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="py-3 titulo-portfolio">Plaza</h2>
+          <div id="carouselplaza" class="carousel slide sombra" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselplaza" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselplaza" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselplaza" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/portfolio/plaza/plaza.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/plaza/plaza-2.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/plaza/plaza-3.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselplaza"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselplaza"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!--5° Minimalista-->
+        <div class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="py-3 titulo-portfolio">Minimalista</h2>
+          <div id="carouselminimalista" class="carousel slide sombra" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselminimalista" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselminimalista" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselminimalista" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselminimalista" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselminimalista" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/portfolio/minimalista/minimalista.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/minimalista/minimalista-2.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/minimalista/minimalista-3.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/minimalista/minimalista-4.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="../images/portfolio/minimalista/minimalista-5.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselminimalista"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselminimalista"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!--6° Varios-->
+        <div class="col-sm-12 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="py-3 titulo-portfolio">Varios</h2>
+          <div id="carouselvarios" class="carousel slide sombra" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselvarios" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/portfolio/varios/varios.jpg" class="d-block w-100" alt="..." />
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselvarios"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselvarios"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
-    </footer>
+  </main>
 
-    <!-- JavaScript-->
-    <script src="../js/bootstrap.js"></script>
-  </body>
+  <!--FOOTER-->
+  <footer>
+    <div class="container position-relative start-0 mt-4 pt-4 border-top border-light">
+      <div class="row align-items-center">
+        <div class="col-6">
+          <a class="float-end" href="mailto:mmonicolasfranchini@gmail.com">
+            <img class="img-fluid logo logo--mail" src="../images/logos/Gmail.png" alt="" />
+          </a>
+        </div>
+        <div class="col-6">
+          <a class="float-start"
+            href="https://wa.me/5491166763658?text=Me%20interesa%20el%20servicio%20que%20estás%20ofreciendo">
+            <img class="img-fluid logo logo--wsp" src="../images/logos/WhastApp.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <h3 class="display-3">
+          <div class="display-3--footer">
+            <strong>
+              © Copyright 2022 | By
+              <span>
+                <a href="https://www.linkedin.com/in/nicol%C3%A1s-franchini/">Nicolás Franchini</a>
+              </span></strong>
+          </div>
+        </h3>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript-->
+  <script src="../js/bootstrap.js"></script>
+
+  <!--Animate-->
+  <script src="../js/animate.css"></script>
+
+</body>
+
 </html>
