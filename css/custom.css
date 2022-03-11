@@ -14953,6 +14953,10 @@ html {
     font-size: 1.2rem;
   }
 
+  .display-intro--intro {
+    margin-bottom: 3rem;
+  }
+
   .presentacion {
     font-size: 1.5rem;
   }
