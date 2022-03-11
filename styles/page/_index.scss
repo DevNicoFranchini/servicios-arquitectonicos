@@ -22,7 +22,6 @@
     color: white;
     text-transform: capitalize;
     text-decoration: underline;
-    animation: fadeIn 5s forwards ease;
     text-align: center;
     text-shadow: $text-shadow;
 
@@ -32,6 +31,10 @@
   }
 }
 
-.index {
-  animation: slideInRight 2.2s ease;
+.animate__animated.animate__slideInRight {
+  --animate-duration: 1.8s;
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
 }

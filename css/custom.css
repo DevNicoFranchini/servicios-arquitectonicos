@@ -5,7 +5,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "animate.css";
+@import "../node_modules/animate.css/animate.css";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
@@ -11218,7 +11218,6 @@ html {
   color: white;
   text-transform: capitalize;
   text-decoration: underline;
-  animation: fadeIn 5s forwards ease;
   text-align: center;
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
 }
@@ -11226,8 +11225,12 @@ html {
   color: #578eb3;
 }
 
-.index {
-  animation: slideInRight 2.2s ease;
+.animate__animated.animate__slideInRight {
+  --animate-duration: 1.8s;
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 5s;
 }
 
 .portfolio {
