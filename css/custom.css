@@ -14944,6 +14944,10 @@ html {
   --animate-duration: 1.5s;
 }
 
+.animate__animated.animate__slideInLeft {
+  --animate-duration: 1.5s;
+}
+
 .animate__animated.animate__fadeIn {
   --animate-duration: 5s;
 }
