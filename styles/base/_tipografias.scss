@@ -11,3 +11,9 @@ html {
   color: $tipografia-celeste;
   text-shadow: $text-shadow;
 }
+
+@media screen and (max-height: 360px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}

@@ -14839,6 +14839,11 @@ html {
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (max-height: 360px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
 /*RESET*/
 * {
   margin: 0;
@@ -15006,6 +15011,11 @@ html {
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (max-height: 360px) {
+  .titulo-portfolio {
+    font-size: 2rem;
+  }
+}
 .servicios {
   width: 95%;
   height: auto;
