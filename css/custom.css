@@ -14875,6 +14875,16 @@ html {
   margin: 0 0.8rem 0 0.8rem;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.nav-link:focus {
+  text-decoration: underline;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+}
+
 .display-3 {
   width: 100%;
   display: flex;
@@ -14938,6 +14948,37 @@ html {
   --animate-duration: 5s;
 }
 
+@media screen and (max-height: 360px) {
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .presentacion {
+    font-size: 1.5rem;
+  }
+
+  .display-3 .display-3--footer {
+    font-size: 1.2rem;
+  }
+  .display-3 .display-3--footer span a {
+    font-size: 1.2rem;
+  }
+
+  .logo--linkedin {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .logo--mail {
+    width: 3rem;
+    height: auto;
+  }
+
+  .logo--wsp {
+    width: 2rem;
+    height: auto;
+  }
+}
 .portfolio {
   height: auto;
   width: 95%;

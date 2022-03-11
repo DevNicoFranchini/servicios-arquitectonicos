@@ -38,3 +38,38 @@
 .animate__animated.animate__fadeIn {
   --animate-duration: 5s;
 }
+
+@media screen and (max-height: 360px) {
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .presentacion {
+    font-size: 1.5rem;
+  }
+
+  .display-3 {
+    .display-3--footer {
+      font-size: 1.2rem;
+
+      span a {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .logo--linkedin {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .logo--mail {
+    width: 3rem;
+    height: auto;
+  }
+
+  .logo--wsp {
+    width: 2rem;
+    height: auto;
+  }
+}
