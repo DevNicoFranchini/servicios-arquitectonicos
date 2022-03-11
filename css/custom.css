@@ -14847,7 +14847,7 @@ html {
 }
 
 .pages-background {
-  background: linear-gradient(black 0%, #3e657f 25%, #578eb3 50%, #3e657f 75%, black 100%);
+  background: linear-gradient(black 0%, #3e657f 20%, #578eb3 50%, #3e657f 80%, black 100%);
 }
 
 /*LOGOS*/
