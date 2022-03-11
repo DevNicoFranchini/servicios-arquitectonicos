@@ -93,3 +93,33 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .formulary {
+    .form {
+      label {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  form input[type="text"],
+  form input[type="email"] {
+    font-size: 0.8rem;
+  }
+
+  form select {
+    font-size: 0.8rem;
+  }
+
+  /*Suscribe*/
+
+  form textarea {
+    font-size: 0.8rem;
+  }
+
+  form input[type="reset"],
+  form input[type="submit"] {
+    font-size: 0.8rem;
+  }
+}

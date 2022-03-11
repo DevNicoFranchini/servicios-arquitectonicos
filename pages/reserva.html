@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Servicios arquitectonicos: planos, modelos 3D, renders y mucho más | Nicolás Franchini"
+    />
+    <meta
+      name="keywords"
+      content="reserva, reservar, arquitectura, ingenieria, sobre mi, plano, planos, modelos 3D, modelos, 3D, render, renders, servicios arquitectoncios, arquitectura"
+    />
 
     <!--Link CSS-->
     <link rel="stylesheet" href="../css/custom.css" />
@@ -14,7 +22,6 @@
       href="../images/logos/building-regular.svg"
       type="image/x-icon"
     />
-
     <title>Reserva Online</title>
   </head>
 
@@ -119,19 +126,23 @@
     <main>
       <div class="container pt-4 px-1 border-top border-light reserva">
         <div class="row mb-4 h-auto align-items-center">
-          <div class="display-2 fw-bold m-0 text-center title">
+          <h1 class="display-2 fw-bold m-0 text-center title">
             DALE, RESERVÁ!
-          </div>
+          </h1>
         </div>
         <div class="row">
           <div class="formulary">
-            <form action="" class="form">
-              <label for="name">Name and Surname:</label>
+            <form
+              action="https://formsubmit.co/mmonicolasfranchini@gmail.com"
+              method="post"
+              class="form"
+            >
+              <label for="name">Nombre y Apellido:</label>
               <input
                 type="text"
                 name="name"
                 id="name"
-                placeholder="Ex: Nick Jones"
+                placeholder="Ej: Nicolás Franchini"
                 required
               />
 
@@ -140,42 +151,42 @@
                 type="email"
                 name="email"
                 id="email"
-                placeholder="Ex: mmonicolasfranchini@gmail.com"
+                placeholder="Ej: mmonicolasfranchini@gmail.com"
                 required
               />
 
-              <label for="cel">Cellphone:</label>
+              <label for="cel">Celular:</label>
               <input
                 type="text"
                 name="cel"
                 id="cel"
-                placeholder="Ex: + 54 9 11 12345678"
+                placeholder="Ej: + 54 9 11 12345678"
                 required
               />
 
-              <label for="services">Service:</label>
+              <label for="services">Servicio a solicitar:</label>
               <select name="services" id="services">
-                <option value="P">Plans</option>
-                <option value="M">3D Models</option>
+                <option value="P">Planos</option>
+                <option value="M">Modelo 3D</option>
                 <option value="R">Renders</option>
-                <option value="PM">Plans + 3D Models</option>
-                <option value="MR">3D Models + Renders</option>
-                <option value="PMR">Plans + 3D Models + Renders</option>
+                <option value="PM">Planos + Modelo 3D</option>
+                <option value="MR">Modelo 3D + Renders</option>
+                <option value="PMR">Planos + Modelos 3D + Renders</option>
               </select>
 
-              <label for="details">Details:</label>
+              <label for="details">Detalles:</label>
               <textarea
                 name="details"
                 id="details"
-                placeholder="Explain your idea"
+                placeholder="Explica tu idea"
                 cols="30"
                 rows="10"
                 required
               ></textarea>
               <div class="suscribe text-center">
                 <label for="info"
-                  >Receive more information about Nicolás Franchini -
-                  Architectural Services?</label
+                  >Recibir más información sobre Nicolás Franchini - Servicios
+                  Arquitectónicos?</label
                 >
               </div>
               <input type="checkbox" name="acepta" id="1" />
