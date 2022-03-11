@@ -5,6 +5,8 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import "animate.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11117,6 +11119,311 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+/*Color para tipografía*/
+/*Valores para sombra de texto*/
+/*FONT*/
+body,
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  color: #578eb3;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pages-background {
+  background: linear-gradient(black 0%, #3e657f 25%, #578eb3 50%, #3e657f 75%, black 100%);
+}
+
+/*LOGOS*/
+.logo {
+  height: 7rem;
+  width: 7rem;
+}
+
+.logo--linkedin {
+  width: 3.2rem;
+  height: 3.2rem;
+  animation: heartBeat;
+  animation-duration: 1s;
+}
+
+.logo--mail {
+  width: 4rem;
+  height: auto;
+  margin: 0 0.8rem 0 0.8rem;
+}
+
+.logo--wsp {
+  width: 3rem;
+  height: auto;
+  margin: 0 0.8rem 0 0.8rem;
+}
+
+.display-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-3 .display-3--footer {
+  padding: 0.8rem;
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.display-3 .display-3--footer span a {
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+.display-3 .display-3--footer span a:hover {
+  color: #578eb3;
+}
+.display-3 .display-3--footer span a:focus {
+  color: #578eb3;
+}
+
+/*Intro section*/
+.background__video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+  opacity: 80%;
+  filter: blur(0.35rem);
+}
+
+.display-intro {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.display-intro .display-intro--intro {
+  color: white;
+  text-transform: capitalize;
+  text-decoration: underline;
+  animation: fadeIn 5s forwards ease;
+  text-align: center;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+}
+.display-intro .display-intro--intro p span {
+  color: #578eb3;
+}
+
+.index {
+  animation: slideInRight 2.2s ease;
+}
+
+.portfolio {
+  height: auto;
+  width: 95%;
+}
+
+.sombra {
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.8);
+}
+
+.servicios {
+  width: 95%;
+  height: auto;
+}
+
+/*CARDS*/
+.card {
+  width: 30rem;
+  height: 65rem;
+  background-color: black;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  overflow: hidden;
+}
+.card .plano-fondo {
+  width: 100%;
+  height: 22rem;
+  background-image: url("../../images/services/plano.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.card .modelo-fondo {
+  width: 100%;
+  height: 22rem;
+  background-image: url("../../images/services/modelo.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.card .render-fondo {
+  width: 100%;
+  height: 22rem;
+  background-image: url("../../images/services/render.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.card h3, .card .h3 {
+  color: #578eb3;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+.card h4, .card .h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 3rem 0.5rem 0 0.5rem;
+  color: white;
+  text-align: center;
+}
+.card ul {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 3rem;
+  list-style: circle;
+  color: white;
+}
+
+.main-height {
+  height: 100vh;
+}
+
+h3, .h3 {
+  color: black;
+}
+h3 .link-portfolio, .h3 .link-portfolio {
+  color: black;
+}
+h3 .link-portfolio:hover, .h3 .link-portfolio:hover {
+  color: #578eb3;
+}
+
+.img-box {
+  width: 80%;
+  height: auto;
+}
+.img-box img {
+  height: 100%;
+  width: 90%;
+  height: auto;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.8);
+  filter: brightness(1.1);
+}
+
+.reserva {
+  width: 95%;
+}
+
+.formulary {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.formulary .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formulary .form label {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+form input[type=text],
+form input[type=email] {
+  height: 50%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  background-color: #578eb3;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  padding-left: 0.8rem;
+  margin: 0.5rem;
+}
+
+form select {
+  height: 50%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  background-color: #578eb3;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 0.8rem;
+}
+
+/*Suscribe*/
+.suscribe {
+  display: flex;
+}
+
+form textarea {
+  height: 100%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  background-color: #578eb3;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  color: black;
+  padding-left: 0.8rem;
+}
+
+form input[type=checkbox] {
+  margin: 0.8rem auto;
+}
+
+.bottons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form input[type=reset],
+form input[type=submit] {
+  height: 50%;
+  width: 30%;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  background-color: #578eb3;
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+form input[type=submit]:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=custom.css.map */

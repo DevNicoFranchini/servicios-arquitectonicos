@@ -1,0 +1,95 @@
+.reserva {
+  width: 95%;
+}
+
+.formulary {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    label {
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding: 1rem;
+    }
+  }
+}
+
+form input[type="text"],
+form input[type="email"] {
+  height: 50%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  background-color: $tipografia-celeste;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  padding-left: 0.8rem;
+  margin: 0.5rem;
+}
+
+form select {
+  height: 50%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  background-color: $tipografia-celeste;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 0.8rem;
+}
+
+/*Suscribe*/
+.suscribe {
+  display: flex;
+}
+
+form textarea {
+  height: 100%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  background-color: $tipografia-celeste;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  color: black;
+  padding-left: 0.8rem;
+}
+
+form input[type="checkbox"] {
+  margin: 0.8rem auto;
+}
+
+.bottons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form input[type="reset"],
+form input[type="submit"] {
+  height: 50%;
+  width: 30%;
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  background-color: $tipografia-celeste;
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+/*Color para tipografía*/
+$tipografia-celeste: #578eb3;
+
+/*Valores para sombra de texto*/
+$text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+
+@mixin sizes($widht, $height) {
+  width: $widht;
+  height: $height;
+}

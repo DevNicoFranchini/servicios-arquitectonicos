@@ -1,0 +1,16 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pages-background {
+  background: linear-gradient(
+    rgba(0, 0, 0, 1) 0%,
+    rgba(62, 101, 127, 1) 25%,
+    rgba(87, 142, 179, 1) 50%,
+    rgba(62, 101, 127, 1) 75%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}

@@ -1,0 +1,28 @@
+.main-height {
+  height: 100vh;
+}
+
+h3 {
+  color: black;
+
+  .link-portfolio {
+    color: black;
+
+    &:hover {
+      color: $tipografia-celeste;
+    }
+  }
+}
+
+.img-box {
+  width: 80%;
+  height: auto;
+
+  img {
+    height: 100%;
+    width: 90%;
+    height: auto;
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.8);
+    filter: brightness(1.1);
+  }
+}
