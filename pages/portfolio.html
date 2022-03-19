@@ -13,6 +13,9 @@
   <!--Link CSS-->
   <link rel="stylesheet" href="../css/custom.css" />
 
+  <!--Link AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!--Logo pestaña-->
   <link rel="shortcut icon" href="../images/logos/building-regular.svg" type="image/x-icon" />
 
@@ -65,7 +68,7 @@
                 </li>
                 <li class="nav-item ps-5">
                   <a class="nav-link text-light h3 mb-0" href="https://www.linkedin.com/in/nicol%C3%A1s-franchini/" target="_blank">
-                    <img class="logo logo--linkedin" src="../images/logos/LinkedIn.png" alt="" />
+                    <img class="logo logo--linkedin animate__animated animate__heartBeat animate__delay-2s" src="../images/logos/LinkedIn.png" alt="" />
                   </a>
                 </li>
               </ul>
@@ -86,7 +89,7 @@
       </div>
       <div class="row gy-4">
         <!--1° Villa Rosa-->
-        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center" data-aos="flip-up" data-aos-offset="400">
           <h2 class="py-3 titulo-portfolio">Villa Rosa</h2>
           <div id="carouselvillarosa" class="carousel slide sombra" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -117,7 +120,7 @@
         </div>
 
         <!--2° Triplex-->
-        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center" data-aos="flip-down" data-aos-offset="400">
           <h2 class="py-3 titulo-portfolio">Triplex</h2>
           <div id="carouseltriplex" class="carousel slide sombra" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -177,7 +180,7 @@
           </div>
         </div>
         <!--3° Polideportivo-->
-        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center" data-aos="zoom-in" data-aos-offset="250">
           <h2 class="py-3 titulo-portfolio">Polideportivo</h2>
           <div id="carouselpolideportivo" class="carousel slide sombra" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -232,7 +235,7 @@
           </div>
         </div>
         <!--4° Plaza-->
-        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up-right" data-aos-offset="130">
           <h2 class="py-3 titulo-portfolio">Plaza</h2>
           <div id="carouselplaza" class="carousel slide sombra" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -267,7 +270,7 @@
           </div>
         </div>
         <!--5° Minimalista-->
-        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center" data-aos="fade-left" data-aos-offset="130">
           <h2 class="py-3 titulo-portfolio">Minimalista</h2>
           <div id="carouselminimalista" class="carousel slide sombra" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -312,7 +315,7 @@
           </div>
         </div>
         <!--6° Varios-->
-        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-sm-6 col-lg-6 col-xl-4 col-xxl-6 d-flex flex-column justify-content-center align-items-center" data-aos="flip-left" data-aos-offset="130">
           <h2 class="py-3 titulo-portfolio">Varios</h2>
           <div id="carouselvarios" class="carousel slide sombra" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -376,6 +379,14 @@
 
   <!--Animate-->
   <script src="../js/animate.css"></script>
+
+  <!--AOS-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000
+    });
+  </script>
 
 </body>
 

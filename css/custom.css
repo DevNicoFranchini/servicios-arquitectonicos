@@ -14864,8 +14864,6 @@ html {
 .logo--linkedin {
   width: 3.2rem;
   height: 3.2rem;
-  animation: heartBeat;
-  animation-duration: 1s;
 }
 
 .logo--mail {
@@ -15180,7 +15178,7 @@ form textarea {
 }
 
 form input[type=checkbox] {
-  margin: 0.8rem auto;
+  margin: 0rem auto 0.8rem auto;
 }
 
 .bottons {

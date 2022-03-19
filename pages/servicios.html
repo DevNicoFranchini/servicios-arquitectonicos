@@ -16,6 +16,9 @@
     <!--Link CSS-->
     <link rel="stylesheet" href="../css/custom.css" />
 
+    <!--Link AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--Logo pestaña-->
     <link
       rel="shortcut icon"
@@ -110,7 +113,7 @@
                       target="_blank"
                     >
                       <img
-                        class="logo logo--linkedin"
+                        class="logo logo--linkedin animate__animated animate__heartBeat animate__delay-2s"
                         src="../images/logos/LinkedIn.png"
                         alt=""
                       />
@@ -138,7 +141,11 @@
           </p>
         </div>
         <div class="row gy-4">
-          <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+          <div
+            class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center"
+            data-aos="fade-right"
+            data-aos-offset="300"
+          >
             <div class="card">
               <div class="plano-fondo"></div>
               <h3>Planos</h3>
@@ -155,7 +162,11 @@
               </ul>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+          <div
+            class="col-12 col-sm-6 col-lg-4 d-flex justify-content-center"
+            data-aos="fade-left"
+            data-aos-offset="300"
+          >
             <div class="card">
               <div class="modelo-fondo"></div>
               <h3>Modelos 3D</h3>
@@ -172,7 +183,11 @@
               </ul>
             </div>
           </div>
-          <div class="col-12 col-lg-4 d-flex justify-content-center">
+          <div
+            class="col-12 col-lg-4 d-flex justify-content-center"
+            data-aos="fade-right"
+            data-aos-offset="300"
+          >
             <div class="card">
               <div class="render-fondo"></div>
               <h3>Renders</h3>
@@ -255,5 +270,13 @@
 
     <!--Animate-->
     <script src="../js/animate.css"></script>
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
